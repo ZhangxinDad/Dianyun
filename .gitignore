@@ -1,0 +1,68 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Large model / dataset artifacts
+*.pth
+*.pt
+*.onnx
+*.h5
+*.hdf5
+*.npz
+
+# SSLFR runtime / experiment folders
+SSLFR_master/data/
+SSLFR_master/output/
+SSLFR_master/outputs/
+SSLFR_master/runs/
+SSLFR_master/log/
+SSLFR_master/logs/
+SSLFR_master/checkpoints/
+SSLFR_master/experiments/
+SSLFR_master/experiment_path/
+SSLFR_master/fine_tuning_experiment_path/
+SSLFR_master/pretrain_experiment_path/
+SSLFR_master/path/
+
+# Generated conversion / inspection outputs
+SSLFR_master/test/txt/
+SSLFR_master/test/txt_v2/
+SSLFR_master/test/**/_face_types.png
+SSLFR_master/test/**/_views.png
+SSLFR_master/test/**/*_stats.json
+
+# Local temporary files
+*.tmp
+*.temp
